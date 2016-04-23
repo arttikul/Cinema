@@ -1,0 +1,105 @@
+@font-face{
+	font-family: 'CenturySchoolbook';
+	src: url('../fonts/CenturySchoolbook-Italic.eot');
+	src: url('../fonts/CenturySchoolbook-Italic.eot?#iefix') format('embedded-opentype');
+	src: url('../fonts/CenturySchoolbook-Italic.woff') format('woff');
+	src: url('../fonts/CenturySchoolbook-Italic.ttf') format('truetype');
+	src: url('../fonts/CenturySchoolbook-Italic.svg#CenturySchoolbook-Italic') format('svg');
+	font-weight: normal;
+	font-style: italic;
+}
+
+@font-face{
+	font-family: 'Calibri';
+	src: url('../fonts/Calibri-Light.eot');
+	src: url('../fonts/Calibri-Light.eot?#iefix') format('embedded-opentype');
+	src: url('../fonts/Calibri-Light.woff') format('woff');
+	src: url('../fonts/Calibri-Light.ttf') format('truetype');
+	src: url('../fonts/Calibri-Light.svg#Calibri-Light') format('svg');
+	font-weight: 300;
+	font-style: normal;
+}
+
+
+$main-color:#a08f80;
+$accent-color:#ff8824;
+
+nav{
+	background: $main-color;
+	font-family: 'Calibri', sans-serif;
+	font-size: 18px;
+	line-height: 18px;
+	color: #fff;
+	.nav-wrapper{
+		position: relative;
+	}
+		.logo{
+			padding: 2px 0 0 10px;
+		}
+	.menu{
+		li{
+			a{
+				padding-bottom: 18px;
+				color:#fff;
+				&:hover{
+					background-color: $accent-color;
+				}
+				}
+			}
+		li:nth-child(2) a{
+			padding-top: 5px;
+			padding-bottom: 8px;
+		}
+	}
+
+}
+.burger{
+	position:absolute;
+	background:darken($main-color, 15%);
+	top: 0;
+	right: 0;
+	span{
+		background: $main-color;
+	}
+}
+.phone-number{
+	margin-top: 16px;
+}
+
+
+@media screen and (min-width: 768px){
+	nav{
+		.menu{
+			li{
+				a{
+					padding-left: 10px;
+					padding-right: 10px;
+				}
+			}
+		}
+	}
+}
+@media screen and (min-width: 992px) {
+	nav{
+		.menu{
+			li{
+				a{
+					padding-left: 17px;
+					padding-right: 17px;
+				}
+			}
+		}
+	}
+}
+@media screen and (min-width: 1200px) {
+	nav{
+		.menu{
+			li{
+				a{
+					padding-left: 25px;
+					padding-right: 25px;
+				}
+			}
+		}
+	}
+}
