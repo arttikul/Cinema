@@ -170,34 +170,35 @@ nav{
 		}
 	}
 }
+.icons{
+	text-align: center;
+	color: white;
+	font-family: Roboto;
+	font-size: 43px;
+	font-weight: 400;
+	p{
+		color: white;
+		font-family: 'Roboto',sans-serif;
+		font-size: 20px;
+		font-weight: 400;
+		&:hover{
+			color:darken($accent-color, 15%);
+			text-decoration: none;
+		}
+	}
+}
 .opacity-block{
 	background: rgba(0,0,0,.7);
 	padding: 28px 0;
-	a{
-		text-align: center;
-		color: white;
-		font-family: Roboto;
-		font-size: 43px;
-		font-weight: 400;
-		p{
-			color: white;
-			font-family: 'Roboto',sans-serif;
-			font-size: 20px;
-			font-weight: 400;
-			&:hover{
-				color:darken($accent-color, 15%);
-				text-decoration: none;
-			}
-		}
-	}
+
+}
+h2{
+	font-size: 24px;
+	font-weight: 400;
 }
 .instalation-block{
 	background: $main-color;
 	font-family: 'Lato';
-	h2{
-		font-size: 24px;
-		font-weight: 400;
-	}
 	ul{
 		font-size: 20px;
 		padding-left: 60px;
@@ -248,6 +249,26 @@ nav{
 			&:hover{
 				background: darken($accent-color, 15%);
 			}
+		}
+	}
+}
+.multiroom-block{
+	background: url('../img/bg_multiroom.jpg') no-repeat center;
+	background-size: cover;
+	padding: 90px 0 140px;
+	h2{
+		margin-bottom: 60px;
+	}
+	a:first-of-type img{
+		margin-top: 6px;
+	}
+	a:last-of-type img{
+		margin-top: 11px;
+		margin-bottom: 25px;
+	}
+	a{
+		img{
+			margin-bottom: 20px;
 		}
 	}
 }

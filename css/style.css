@@ -128,30 +128,32 @@ nav {
       background: #d76200;
       text-decoration: none; }
 
+.icons {
+  text-align: center;
+  color: white;
+  font-family: Roboto;
+  font-size: 43px;
+  font-weight: 400; }
+  .icons p {
+    color: white;
+    font-family: 'Roboto',sans-serif;
+    font-size: 20px;
+    font-weight: 400; }
+    .icons p:hover {
+      color: #d76200;
+      text-decoration: none; }
+
 .opacity-block {
   background: rgba(0, 0, 0, 0.7);
   padding: 28px 0; }
-  .opacity-block a {
-    text-align: center;
-    color: white;
-    font-family: Roboto;
-    font-size: 43px;
-    font-weight: 400; }
-    .opacity-block a p {
-      color: white;
-      font-family: 'Roboto',sans-serif;
-      font-size: 20px;
-      font-weight: 400; }
-      .opacity-block a p:hover {
-        color: #d76200;
-        text-decoration: none; }
+
+h2 {
+  font-size: 24px;
+  font-weight: 400; }
 
 .instalation-block {
   background: #a08f80;
   font-family: 'Lato'; }
-  .instalation-block h2 {
-    font-size: 24px;
-    font-weight: 400; }
   .instalation-block ul {
     font-size: 20px;
     padding-left: 60px; }
@@ -197,6 +199,20 @@ nav {
       border: none; }
       .instalation-block .submit-app input[type="submit"]:hover {
         background: #d76200; }
+
+.multiroom-block {
+  background: url("../img/bg_multiroom.jpg") no-repeat center;
+  background-size: cover;
+  padding: 90px 0 140px; }
+  .multiroom-block h2 {
+    margin-bottom: 60px; }
+  .multiroom-block a:first-of-type img {
+    margin-top: 6px; }
+  .multiroom-block a:last-of-type img {
+    margin-top: 11px;
+    margin-bottom: 25px; }
+  .multiroom-block a img {
+    margin-bottom: 20px; }
 
 @media screen and (min-width: 768px) {
   nav .menu li a {
