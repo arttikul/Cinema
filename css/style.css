@@ -18,6 +18,44 @@
   font-weight: 300;
   font-style: normal; }
 
+@font-face {
+  font-family: 'Lato';
+  src: url("../fonts/Lato-Heavy.eot");
+  src: url("../fonts/Lato-Heavy.eot?#iefix") format("embedded-opentype"), url("../fonts/Lato-Heavy.woff") format("woff"), url("../fonts/Lato-Heavy.ttf") format("truetype"), url("../fonts/Lato-Heavy.svg#Lato-Heavy") format("svg");
+  font-weight: 900;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Lato';
+  src: url("../fonts/Lato-Thin.eot");
+  src: url("../fonts/Lato-Thin.eot?#iefix") format("embedded-opentype"), url("../fonts/Lato-Thin.woff") format("woff"), url("../fonts/Lato-Thin.ttf") format("truetype"), url("../fonts/Lato-Thin.svg#Lato-Thin") format("svg");
+  font-weight: 100;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Lato';
+  src: url("../fonts/Lato-Regular.eot");
+  src: url("../fonts/Lato-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Lato-Regular.woff") format("woff"), url("../fonts/Lato-Regular.ttf") format("truetype"), url("../fonts/Lato-Regular.svg#Lato-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Lato';
+  src: url("../fonts/Lato-Light.eot");
+  src: url("../fonts/Lato-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/Lato-Light.woff") format("woff"), url("../fonts/Lato-Light.ttf") format("truetype"), url("../fonts/Lato-Light.svg#Lato-Light") format("svg");
+  font-weight: 300;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Lato';
+  src: url("../fonts/Lato-ThinItalic.eot");
+  src: url("../fonts/Lato-ThinItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/Lato-ThinItalic.woff") format("woff"), url("../fonts/Lato-ThinItalic.ttf") format("truetype"), url("../fonts/Lato-ThinItalic.svg#Lato-ThinItalic") format("svg");
+  font-weight: 100;
+  font-style: italic; }
+
+body {
+  color: #fff; }
+
 header {
   background: -webkit-linear-gradient(rgba(0, 0, 0, 0.7) 0%, rgba(255, 255, 255, 0) 100%) 0 50px, url("../img/header_bg.jpg") no-repeat center 50px;
   background: -o-linear-gradient(rgba(0, 0, 0, 0.7) 0%, rgba(255, 255, 255, 0) 100%) 0 50px, url("../img/header_bg.jpg") no-repeat center 50px;
@@ -107,6 +145,58 @@ nav {
       .opacity-block a p:hover {
         color: #d76200;
         text-decoration: none; }
+
+.instalation-block {
+  background: #a08f80;
+  font-family: 'Lato'; }
+  .instalation-block h2 {
+    font-size: 24px;
+    font-weight: 400; }
+  .instalation-block ul {
+    font-size: 20px;
+    padding-left: 60px; }
+    .instalation-block ul h3 {
+      margin-left: -17px;
+      font-weight: 400; }
+    .instalation-block ul li {
+      font-weight: 300; }
+  .instalation-block .footnote {
+    padding-left: 20px;
+    opacity: 0.8;
+    font-size: 18px;
+    font-weight: 100;
+    font-style: italic; }
+  .instalation-block .submit-app {
+    padding: 20px 0 70px; }
+    .instalation-block .submit-app input {
+      border: none;
+      font-family: 'Lato';
+      font-size: 20px;
+      font-weight: 300;
+      outline: none; }
+    .instalation-block .submit-app input[type="text"] {
+      width: 100%;
+      padding: 6px 15px;
+      background: #c1b6ac; }
+      .instalation-block .submit-app input[type="text"]:focus {
+        background: #fff;
+        color: #79695b; }
+    .instalation-block .submit-app input::-webkit-input-placeholder {
+      color: white; }
+    .instalation-block .submit-app input:-moz-placeholder {
+      color: white; }
+    .instalation-block .submit-app input::-moz-placeholder {
+      color: white; }
+    .instalation-block .submit-app input:-ms-input-placeholder {
+      color: white; }
+    .instalation-block .submit-app input[type="submit"] {
+      font-weight: 400;
+      color: white;
+      background: #ff8824;
+      padding: 6px 15px;
+      border: none; }
+      .instalation-block .submit-app input[type="submit"]:hover {
+        background: #d76200; }
 
 @media screen and (min-width: 768px) {
   nav .menu li a {
