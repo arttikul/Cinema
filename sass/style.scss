@@ -173,7 +173,7 @@ nav{
 .icons{
 	text-align: center;
 	color: white;
-	font-family: Roboto;
+	font-family: 'Roboto';
 	font-size: 43px;
 	font-weight: 400;
 	p{
@@ -181,20 +181,21 @@ nav{
 		font-family: 'Roboto',sans-serif;
 		font-size: 20px;
 		font-weight: 400;
-		&:hover{
-			color:darken($accent-color, 15%);
-			text-decoration: none;
-		}
 	}
 }
 .opacity-block{
 	background: rgba(0,0,0,.7);
-	padding: 28px 0;
-
+	padding: 28px 0 0;
+	span{
+		display: block;
+	}
 }
 h2{
 	font-size: 24px;
 	font-weight: 400;
+}
+.icons{
+	margin-bottom: 28px;
 }
 .instalation-block{
 	background: $main-color;
@@ -253,24 +254,62 @@ h2{
 	}
 }
 .multiroom-block{
-	background: url('../img/bg_multiroom.jpg') no-repeat center;
+	background: url('../img/bg_multiroom.jpg') no-repeat 20%;
 	background-size: cover;
-	padding: 90px 0 140px;
+	padding: 90px 0 110px;
 	h2{
 		margin-bottom: 60px;
 	}
-	a:first-of-type img{
-		margin-top: 6px;
-	}
-	a:last-of-type img{
-		margin-top: 11px;
-		margin-bottom: 25px;
-	}
-	a{
-		img{
-			margin-bottom: 20px;
+	.icons {
+		margin-bottom: 30px;
+		p{
+		font-family: 'lato';
+		font-size: 20px;
+		font-weight: 300;
 		}
 	}
+
+	.row div:first-of-type{
+		padding-top: 8px;
+	}
+	.row div:last-of-type{
+		padding-top: 19px;
+	}
+	div img{
+		margin-bottom: 15px;
+	}
+}
+.how-we-work{
+	background: darken($main-color, 30%);
+	padding: 45px 0 40px;
+	h2{
+		margin-bottom: 50px;
+		margin-left: 20px;
+	}
+	.icons{
+		margin-bottom: 40px;
+		p{
+			font-family: 'lato';
+			font-size: 18px;
+			font-weight: 300;
+		}
+		a{
+			background: $main-color;
+			padding: 10px;
+			font-family: 'Lato';
+			font-size: 20px;
+			font-weight: 400;
+			display: block;
+			width: 180px;
+			margin: 0	auto;
+			&:hover{
+				text-decoration: none;
+				color: darken($main-color, 20%);
+				background: lighten($main-color, 15%);
+			}
+		}
+	}
+
 }
 
 @media screen and (min-width: 768px){
@@ -296,6 +335,13 @@ h2{
 			font-size: 24px;
 			width: 358px;
 			padding: 11px 0;
+		}
+	}
+	.how-we-work{
+		.icons{
+			a{
+				font-size: 18px;
+			}
 		}
 	}
 }

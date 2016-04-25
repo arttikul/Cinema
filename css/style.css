@@ -131,7 +131,7 @@ nav {
 .icons {
   text-align: center;
   color: white;
-  font-family: Roboto;
+  font-family: 'Roboto';
   font-size: 43px;
   font-weight: 400; }
   .icons p {
@@ -139,17 +139,19 @@ nav {
     font-family: 'Roboto',sans-serif;
     font-size: 20px;
     font-weight: 400; }
-    .icons p:hover {
-      color: #d76200;
-      text-decoration: none; }
 
 .opacity-block {
   background: rgba(0, 0, 0, 0.7);
-  padding: 28px 0; }
+  padding: 28px 0 0; }
+  .opacity-block span {
+    display: block; }
 
 h2 {
   font-size: 24px;
   font-weight: 400; }
+
+.icons {
+  margin-bottom: 28px; }
 
 .instalation-block {
   background: #a08f80;
@@ -201,18 +203,49 @@ h2 {
         background: #d76200; }
 
 .multiroom-block {
-  background: url("../img/bg_multiroom.jpg") no-repeat center;
+  background: url("../img/bg_multiroom.jpg") no-repeat 20%;
   background-size: cover;
-  padding: 90px 0 140px; }
+  padding: 90px 0 110px; }
   .multiroom-block h2 {
     margin-bottom: 60px; }
-  .multiroom-block a:first-of-type img {
-    margin-top: 6px; }
-  .multiroom-block a:last-of-type img {
-    margin-top: 11px;
-    margin-bottom: 25px; }
-  .multiroom-block a img {
-    margin-bottom: 20px; }
+  .multiroom-block .icons {
+    margin-bottom: 30px; }
+    .multiroom-block .icons p {
+      font-family: 'lato';
+      font-size: 20px;
+      font-weight: 300; }
+  .multiroom-block .row div:first-of-type {
+    padding-top: 8px; }
+  .multiroom-block .row div:last-of-type {
+    padding-top: 19px; }
+  .multiroom-block div img {
+    margin-bottom: 15px; }
+
+.how-we-work {
+  background: #4d433a;
+  padding: 45px 0 40px; }
+  .how-we-work h2 {
+    margin-bottom: 50px;
+    margin-left: 20px; }
+  .how-we-work .icons {
+    margin-bottom: 40px; }
+    .how-we-work .icons p {
+      font-family: 'lato';
+      font-size: 18px;
+      font-weight: 300; }
+    .how-we-work .icons a {
+      background: #a08f80;
+      padding: 10px;
+      font-family: 'Lato';
+      font-size: 20px;
+      font-weight: 400;
+      display: block;
+      width: 180px;
+      margin: 0	auto; }
+      .how-we-work .icons a:hover {
+        text-decoration: none;
+        color: #6a5c50;
+        background: #c1b6ac; }
 
 @media screen and (min-width: 768px) {
   nav .menu li a {
@@ -226,7 +259,9 @@ h2 {
   .head-wrapper .calculate-coast {
     font-size: 24px;
     width: 358px;
-    padding: 11px 0; } }
+    padding: 11px 0; }
+  .how-we-work .icons a {
+    font-size: 18px; } }
 
 @media screen and (min-width: 992px) {
   nav .menu li a {
