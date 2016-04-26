@@ -247,6 +247,111 @@ h2 {
         color: #6a5c50;
         background: #c1b6ac; }
 
+.our-works {
+  background: url("../img/our_works.jpg") no-repeat 20%;
+  background-size: cover;
+  padding-bottom: 35px; }
+  .our-works h2 {
+    margin-bottom: 40px; }
+  .our-works .card {
+    max-width: 350px;
+    background: #fff;
+    color: black;
+    font-family: 'Lato';
+    font-size: 20px;
+    font-weight: 300;
+    margin: 0 auto 20px; }
+    .our-works .card img {
+      width: 100%;
+      height: auto; }
+    .our-works .card p {
+      padding: 10px;
+      padding-bottom: 0; }
+    .our-works .card a {
+      float: right;
+      font-size: 13px;
+      margin-right: 10px;
+      margin-top: -10px;
+      opacity: .7; }
+      .our-works .card a:hover {
+        opacity: 1; }
+      .our-works .card a i {
+        margin-left: 5px; }
+
+.reviews {
+  background: #40526a;
+  color: white;
+  font-family: 'Lato'; }
+  .reviews .rewiev-block {
+    margin-top: 20px;
+    margin-bottom: 40px; }
+  .reviews h3 {
+    font-size: 20px;
+    font-weight: 400; }
+  .reviews p {
+    font-weight: 300;
+    font-size: 20px; }
+  .reviews a {
+    font-style: italic;
+    font-weight: 100; }
+
+.contacts-block {
+  background: url("../img/contacts_block_bg.jpg") no-repeat center;
+  background-size: cover; }
+  .contacts-block h2 {
+    margin-left: 20px; }
+  .contacts-block iframe {
+    width: 100%;
+    margin-top: 30px;
+    padding-bottom: 40px; }
+  .contacts-block .contacts {
+    font-family: 'Lato';
+    font-size: 20px;
+    margin-top: 40px; }
+    .contacts-block .contacts .contacts-wrapper {
+      width: 250px;
+      margin: 0 auto 40px; }
+      .contacts-block .contacts .contacts-wrapper h4 {
+        font-weight: 800; }
+      .contacts-block .contacts .contacts-wrapper span {
+        display: block;
+        font-weight: 400; }
+
+footer {
+  background: #4d433a;
+  text-align: center; }
+  footer .footer-form {
+    padding: 20px 0 70px; }
+    footer .footer-form input {
+      border: none;
+      font-family: 'Lato';
+      font-size: 20px;
+      font-weight: 300;
+      outline: none; }
+    footer .footer-form input[type="text"] {
+      width: 100%;
+      padding: 6px 15px;
+      background: #e1dcd8; }
+      footer .footer-form input[type="text"]:focus {
+        background: #fff;
+        color: #79695b; }
+    footer .footer-form input::-webkit-input-placeholder {
+      color: #a08f80; }
+    footer .footer-form input:-moz-placeholder {
+      color: #a08f80; }
+    footer .footer-form input::-moz-placeholder {
+      color: #a08f80; }
+    footer .footer-form input:-ms-input-placeholder {
+      color: #a08f80; }
+    footer .footer-form input[type="submit"] {
+      font-weight: 400;
+      color: #5c5045;
+      background: #fff;
+      padding: 6px 15px;
+      border: none; }
+      footer .footer-form input[type="submit"]:hover {
+        background: #d7cfc9; }
+
 @media screen and (min-width: 768px) {
   nav .menu li a {
     padding-left: 10px;
